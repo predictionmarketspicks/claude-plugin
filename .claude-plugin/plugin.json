@@ -1,0 +1,25 @@
+{
+  "name": "predictionmarketspicks",
+  "version": "1.0.0",
+  "description": "Live Kalshi and Polymarket market data for your agent: NFL player-prop prices by venue, cross-venue price gaps, Kalshi weather and 15-minute crypto and metals boards, perps, Fed odds, the 2026 Senate map, NHL, and EV/Kelly/Bayes math. Free, read-only, no key. Pro members sign in to unlock model edges.",
+  "author": {
+    "name": "PredictionMarketsPicks",
+    "email": "predictionmarketspicks@gmail.com",
+    "url": "https://predictionmarketspicks.com"
+  },
+  "homepage": "https://predictionmarketspicks.com/mcp",
+  "repository": "https://github.com/predictionmarketspicks/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "prediction-markets",
+    "kalshi",
+    "polymarket",
+    "mcp",
+    "expected-value",
+    "kelly-criterion",
+    "nfl",
+    "fed-rate-odds",
+    "crypto",
+    "markets"
+  ]
+}
