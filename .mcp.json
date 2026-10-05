@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "predictionmarketspicks": {
+      "type": "http",
+      "url": "https://predictionmarketspicks.com/api/mcp/apps"
+    }
+  }
+}
