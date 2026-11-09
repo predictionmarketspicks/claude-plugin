@@ -2,7 +2,7 @@
   "mcpServers": {
     "predictionmarketspicks": {
       "type": "http",
-      "url": "https://predictionmarketspicks.com/api/mcp/apps"
+      "url": "https://predictionmarketspicks.com/api/mcp/mcp?via=claude-plugin"
     }
   }
 }

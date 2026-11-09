@@ -9,7 +9,7 @@ Live Kalshi and Polymarket market data inside Claude (claude.ai, Cowork and Clau
 
 | Component | What it does |
 |---|---|
-| `.mcp.json` | Connects the hosted MCP server (`https://predictionmarketspicks.com/api/mcp/apps`, Streamable HTTP). Nothing to install, nothing runs locally. |
+| `.mcp.json` | Connects the hosted MCP server (`https://predictionmarketspicks.com/api/mcp/mcp?via=claude-plugin`, Streamable HTTP). Nothing to install, nothing runs locally. |
 | `skills/prediction-markets-desk` | Routes any prediction-market question to the right tool and sets the rules for quoting prices (numbers only from tool results, venue labelled, an edge is disagreement not a guarantee). |
 | `skills/nfl-props-desk` | The in-season NFL flow: prop board → ladder → combo → win probability → the Pro edge tools. |
 | `skills/fifteen-minute-desk` | Kalshi 15-minute markets and perps: windows, targets, settlement sources, liquidation math. |
