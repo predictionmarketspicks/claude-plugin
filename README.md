@@ -18,12 +18,7 @@ Live Kalshi and Polymarket market data inside Claude (claude.ai, Cowork and Clau
 
 **From the Claude Directory**: add the PredictionMarketsPicks plugin.
 
-**Claude Code, from a local clone**:
-
-```
-git clone https://github.com/predictionmarketspicks/claude-plugin
-claude --plugin-dir ./claude-plugin
-```
+**Claude Code**: clone this repository and pass its folder to Claude Code's `--plugin-dir` flag.
 
 Or point any MCP host at the server directly — see https://predictionmarketspicks.com/mcp/setup.
 
@@ -32,7 +27,7 @@ Or point any MCP host at the server directly — see https://predictionmarketspi
 - Every tool is read-only. Nothing places an order; trade links open the exchange in your browser.
 - The server receives the tool call (its arguments) and your client's user-agent, and returns market data. No credentials are read from your machine, and the plugin asks for none.
 - Pro is optional and uses OAuth sign-in on the connector (`/api/mcp/connect`); the plugin itself never handles a token.
-- Privacy policy: https://predictionmarketspicks.com/privacy · Terms: https://predictionmarketspicks.com/tos · Support: predictionmarketspicks@gmail.com
+- Privacy policy: https://predictionmarketspicks.com/privacy · Terms: https://predictionmarketspicks.com/tos · Support: https://predictionmarketspicks.com/about · predictionmarketspicks@gmail.com
 
 ## Not financial advice
 

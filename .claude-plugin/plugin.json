@@ -1,6 +1,7 @@
 {
   "name": "predictionmarketspicks",
-  "version": "1.1.0",
+  "displayName": "PredictionMarketsPicks",
+  "version": "1.1.1",
   "description": "PredictionMarketsPicks puts live Kalshi and Polymarket market intelligence inside your conversation. Ask in plain English; the connector answers with current prices, our model's read, and a link to the full board.\n\nWhat you can ask:\n• \"What's on the NFL player-prop board this week?\" — every priced prop across Kalshi and the prediction-market books, with our projection beside the price.\n• \"Where do Kalshi and Polymarket disagree right now?\" — cross-venue price gaps, labeled by venue, net of fees.\n• \"What's the 15-minute Bitcoin board doing?\" — Kalshi's short-dated crypto and metals contracts with our fair value.\n• \"What are the odds for the next Fed meeting?\" — Kalshi vs futures for the next FOMC decision.\n• \"Which NHL games does the model like tonight?\"\n• \"Is 62¢ a good price if I think it's 70%?\" — expected value, Kelly sizing, probability conversion and Bayesian updating.\n\nFree, no key, read-only. Nothing here places a trade; trade links open the exchange. Pro members can sign in with their PredictionMarketsPicks account to unlock the model's game and prop edges, the mispricing scanner and alerts.\n\nEvery signal our engines publish is graded against the market that priced it, by tool, at predictionmarketspicks.com/track-record.",
   "author": {
     "name": "Benanas LLC",
@@ -10,6 +11,11 @@
   "homepage": "https://predictionmarketspicks.com/mcp",
   "repository": "https://github.com/predictionmarketspicks/claude-plugin",
   "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://predictionmarketspicks.com/privacy",
+  "termsOfServiceUrl": "https://predictionmarketspicks.com/tos",
+  "supportUrl": "https://predictionmarketspicks.com/about",
+  "documentationUrl": "https://predictionmarketspicks.com/mcp/setup",
   "keywords": [
     "prediction-markets",
     "kalshi",
